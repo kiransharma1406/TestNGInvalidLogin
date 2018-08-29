@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test thread-count="5" name="MercuryTesting(failed)">
+    <classes>
+      <class name="com.invalidlogin.test.RegressionTestScripts">
+        <methods>
+          <include name="verifiedValidLogin"/>
+          <include name="appClose"/>
+          <include name="verifiedInvalidLogin"/>
+        </methods>
+      </class> <!-- com.invalidlogin.test.RegressionTestScripts -->
+    </classes>
+  </test> <!-- MercuryTesting(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
